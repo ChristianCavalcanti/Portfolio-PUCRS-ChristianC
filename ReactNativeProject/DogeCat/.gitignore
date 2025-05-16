@@ -33,3 +33,16 @@ yarn-error.*
 
 # typescript
 *.tsbuildinfo
+
+# React Native
+node_modules/
+*.log
+*.tmp
+.expo/
+.expo-shared/
+dist/
+web-build/
+android/
+ios/
+.vscode/
+*.DS_Store

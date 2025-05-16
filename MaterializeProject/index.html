@@ -1,39 +1,110 @@
 <!DOCTYPE html>
-<html>
-<!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 
 <head>
-  <!--Import Google Icon Font-->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <!--Import materialize.css-->
-  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
-
-  <!--Let browser know website is optimized for mobile-->
+  <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jornal Livre</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
 </head>
 
 <body>
-  <script type="text/javascript" src="js/materialize.min.js"></script>
 
-
-  <div class="row">
-
-    <div class="col s4">
-      <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum ut temporibus quam quas praesentium dolorum beatae perferendis dolore necessitatibus quasi voluptate itaque voluptatem consequuntur, doloremque sapiente officia exercitationem laudantium assumenda?</h1>
+  <!-- Navbar -->
+  <nav class="blue-grey darken-4">
+    <div class="nav-wrapper container">
+      <a href="#!" class="brand-logo">Jornal Livre</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#!">Política</a></li>
+        <li><a href="#!">Tecnologia</a></li>
+        <li><a href="#!">Cultura</a></li>
+      </ul>
     </div>
-    <div class="col s2">
-      <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum ut temporibus quam quas praesentium dolorum beatae perferendis dolore necessitatibus quasi voluptate itaque voluptatem consequuntur, doloremque sapiente officia exercitationem laudantium assumenda?</h1>
-      <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum ut temporibus quam quas praesentium dolorum beatae perferendis dolore necessitatibus quasi voluptate itaque voluptatem consequuntur, doloremque sapiente officia exercitationem laudantium assumenda?</h1>
-      <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum ut temporibus quam quas praesentium dolorum beatae perferendis dolore necessitatibus quasi voluptate itaque voluptatem consequuntur, doloremque sapiente officia exercitationem laudantium assumenda?</h1>
-      <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum ut temporibus quam quas praesentium dolorum beatae perferendis dolore necessitatibus quasi voluptate itaque voluptatem consequuntur, doloremque sapiente officia exercitationem laudantium assumenda?</h1>
-    </div>
-    <div class="col s7">
-      <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum ut temporibus quam quas praesentium dolorum beatae perferendis dolore necessitatibus quasi voluptate itaque voluptatem consequuntur, doloremque sapiente officia exercitationem laudantium assumenda?</h1>
-    </div>
+  </nav>
 
+  <!-- Manchete Principal -->
+  <div class="section">
+    <div class="container">
+      <div class="row valign-wrapper">
+        <div class="col s12 m6">
+          <img src="https://images.pexels.com/photos/261949/pexels-photo-261949.jpeg?auto=compress&cs=tinysrgb&h=400" alt="Manchete" class="responsive-img z-depth-2">
+        </div>
+        <div class="col s12 m6">
+          <h4 class="blue-grey-text text-darken-3">Natal News</h4>
+          <p class="flow-text">Verdades - Mentiras - Inquira sobre tudo que é informado!</p>
+          <a class="btn blue-grey darken-3">Leia Mais</a>
+        </div>
+      </div>
+    </div>
   </div>
 
+  <!-- Notícias Secundárias -->
+  <div class="section grey lighten-4">
+    <div class="container">
+      <h5 class="blue-grey-text text-darken-2">Últimas Notícias</h5>
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="https://images.pexels.com/photos/466685/pexels-photo-466685.jpeg?auto=compress&cs=tinysrgb&h=200" alt="Política">
+              <span class="card-title">Política</span>
+            </div>
+            <div class="card-content">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="card-action">
+              <a href="#">Leia mais</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&h=200" alt="Tecnologia">
+              <span class="card-title">Tecnologia</span>
+            </div>
+            <div class="card-content">
+              <p>Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas.</p>
+            </div>
+            <div class="card-action">
+              <a href="#">Leia mais</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="https://images.pexels.com/photos/3806781/pexels-photo-3806781.jpeg?auto=compress&cs=tinysrgb&h=200" alt="Cultura">
+              <span class="card-title">Cultura</span>
+            </div>
+            <div class="card-content">
+              <p>Curabitur blandit tempus porttitor. Integer posuere erat a ante venenatis.</p>
+            </div>
+            <div class="card-action">
+              <a href="#">Leia mais</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Rodapé -->
+  <footer class="page-footer blue-grey darken-4">
+    <div class="container">
+      <div class="row">
+        <div class="col s12">
+          <p class="white-text">© 2025 Jornal Livre. Todos os direitos reservados.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>
 
 </html>

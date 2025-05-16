@@ -15,3 +15,83 @@ Content-Type: application/json
   "texto": "boyzo",
   "userId": 1
 }
+
+### Novo Post 2
+POST http://localhost:8080/posts
+Content-Type: application/json
+
+{
+  "titulo": "gatinhos legais",
+  "texto": "Um post sobre gatinhos incríveis.",
+  "userId": 1
+}
+
+### Novo Post 3
+POST http://localhost:8080/posts
+Content-Type: application/json
+
+{
+  "titulo": "cachorros bobos",
+  "texto": "Os melhores memes de cachorros.",
+  "userId": 1
+}
+
+### Novo Post 4
+POST http://localhost:8080/posts
+Content-Type: application/json
+
+{
+  "titulo": "notícias da semana",
+  "texto": "Resumo das principais notícias.",
+  "userId": 1
+}
+
+### Novo Post 5
+POST http://localhost:8080/posts
+Content-Type: application/json
+
+{
+  "titulo": "promoções da loja",
+  "texto": "Até 50% off em brinquedos pets.",
+  "userId": 1
+}
+
+### Novo Post 6
+POST http://localhost:8080/posts
+Content-Type: application/json
+
+{
+  "titulo": "review: Pet Ball",
+  "texto": "Minha opinião sincera sobre a Pet Ball.",
+  "userId": 1
+}
+
+### Novo Post 7
+POST http://localhost:8080/posts
+Content-Type: application/json
+
+{
+  "titulo": "alimentação saudável",
+  "texto": "Comida natural para pets: vale a pena?",
+  "userId": 1
+}
+
+### Novo Post 8
+POST http://localhost:8080/posts
+Content-Type: application/json
+
+{
+  "titulo": "banho em casa",
+  "texto": "Como dar banho no seu cachorro sem estresse.",
+  "userId": 1
+}
+
+### Novo Post 9
+POST http://localhost:8080/posts
+Content-Type: application/json
+
+{
+  "titulo": "adoção responsável",
+  "texto": "5 passos para adotar um pet com consciência.",
+  "userId": 1
+}
